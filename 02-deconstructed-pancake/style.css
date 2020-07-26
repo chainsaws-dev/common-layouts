@@ -1,0 +1,31 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background: lightblue;
+    width: 98vw;
+    height: 98vh;
+    border-radius: 5px;
+
+    box-shadow: 0 0 20px -10px hsl(187, 97%, 24%);
+    
+    resize: both;
+    overflow: auto;    
+  }
+  
+  .child {
+    
+    flex: 1 1 150px;
+    
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 5px;
+    background: lightpink;
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  body {
+    font-family: system-ui, serif;
+  }

@@ -1,0 +1,29 @@
+.parent {
+    display: grid;
+    place-items: center;
+
+    background: lightblue;
+    width: 98vw;
+    height: 98vh;
+    border-radius: 5px;
+
+    box-shadow: 0 0 20px -10px hsl(187, 97%, 24%);
+    
+    resize: both;
+    overflow: auto;
+  }
+  
+  .child {
+    padding: 0.5rem;
+    border-radius: 40px;
+    border: 1px solid red;
+    background: lightpink;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 1rem;
+
+  }
+  
+  body {
+    font-family: system-ui, serif;
+  }
