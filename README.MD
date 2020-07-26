@@ -24,20 +24,27 @@ That reaches 150 px
 ## Holy grail
 
 in parent:
+
 `grid-template: auto 1fr auto / auto 1fr auto;`
 
 in each child:
+
 `display: block; grid-column: 1 / 4;`
+
 means draw this from begining of first grid column to the begining of fourth (end of third)
 
 ## Span grid (Brick wall)
 
 in parent:
+
 `grid-template-columns: repeat(12, 1fr);`
+
 ==
+
 `grid-template-columns: 1fr 1fr 1fr ... (12 times)`
 
 in each child:
+
 `grid-column: 1 / span 12;`
 
 ## RAM (Repeat Auto Minmax)
