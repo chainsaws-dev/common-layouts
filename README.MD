@@ -4,12 +4,20 @@ Samples taken from [here](http://1linelayouts.glitch.me/)
 added some extra css and html to use as templates in practice
 
 ## Super centered
+- [x] Edge
+- [x] Firefox
+- [x] Chrome
+- [x] Safari
 
 `display: grid;`
 
 `place-items: center;`
 
 ## Deconstructed pancake
+- [x] Edge
+- [x] Firefox
+- [x] Chrome
+- [x] Safari
 
 That growth width
 
@@ -20,14 +28,26 @@ That reaches 150 px
 `flex: 0 1 150px;`
 
 ## Sidebar says
+- [x] Edge
+- [x] Firefox
+- [x] Chrome
+- [x] Safari
 
 `grid-template-columns: minmax(150px, 25%) 1fr;`
 
 ## Pancake stack
+- [x] Edge
+- [x] Firefox
+- [x] Chrome
+- [x] Safari
 
 `grid-template-rows: auto 1fr auto;`
 
 ## Holy grail
+- [x] Edge
+- [x] Firefox
+- [x] Chrome
+- [x] Safari
 
 in parent:
 
@@ -40,6 +60,10 @@ in each child:
 means draw this from begining of first grid column to the begining of fourth (end of third)
 
 ## Span grid (Brick wall)
+- [x] Edge
+- [x] Firefox
+- [x] Chrome
+- [x] Safari
 
 in parent:
 
@@ -54,6 +78,10 @@ in each child:
 `grid-column: 1 / span 12;`
 
 ## RAM (Repeat Auto Minmax)
+- [x] Edge
+- [x] Firefox
+- [x] Chrome
+- [x] Safari
 
 `display: grid;`
 
@@ -72,6 +100,10 @@ WHEN
 doesn't grow beyond 150 px
 
 ## Line Up
+- [x] Edge
+- [x] Firefox
+- [x] Chrome
+- [ ] Safari
 
 Parent
 
@@ -86,6 +118,10 @@ Item
 `justify-content: space-between;`
 
 ## Keep aspect ratio
+- [ ] Edge
+- [ ] Firefox
+- [ ] Chrome
+- [ ] Safari
 
 Planned for future
 
