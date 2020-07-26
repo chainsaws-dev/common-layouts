@@ -70,3 +70,23 @@ WHEN
 `auto-fill`
 
 doesn't grow beyond 150 px
+
+## Line Up
+
+Parent
+
+`grid-gap: 1rem;`
+
+`grid-template-columns: repeat(3, 1fr);`
+
+Item
+
+`flex-direction: column;`
+
+`justify-content: space-between;`
+
+## Keep aspect ratio
+
+Planned for future
+
+`aspect-ratio: 16 / 9;`
