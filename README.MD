@@ -3,14 +3,17 @@
 ## Super centered
 
 `display: grid;`
+
 `place-items: center;`
 
 ## Deconstructed pancake
 
 That growth width
+
 `flex: 1 1 150px;`
 
 That reaches 150 px
+
 `flex: 0 1 150px;`
 
 ## Sidebar says
@@ -50,5 +53,17 @@ in each child:
 ## RAM (Repeat Auto Minmax)
 
 `display: grid;`
+
 `grid-gap: 1rem;`
+
 `grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));`
+
+`auto-fit` 
+
+grows beyond 150px filling all free space
+
+WHEN
+
+`auto-fill`
+
+doesn't grow beyond 150 px
