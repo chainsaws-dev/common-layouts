@@ -1,5 +1,8 @@
 # Main things to remember
 
+Samples taken from [here](http://1linelayouts.glitch.me/)
+added some extra css and html to use as templates in practice
+
 ## Super centered
 
 `display: grid;`
